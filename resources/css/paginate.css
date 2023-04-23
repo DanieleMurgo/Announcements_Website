@@ -1,0 +1,19 @@
+.active>.page-link {
+    background-color: var(--text-color) !important;
+    border-color: var(--text-color) !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.page-link {
+    color: var(--text-color) !important;
+    border-radius: 50%;
+    width: 100px;
+    border-radius: 20px 20px 20px 20px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.linea-bottoni{
+    border-bottom: none !important;
+}

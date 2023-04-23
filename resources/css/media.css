@@ -1,0 +1,328 @@
+@media only screen and (max-width: 1200px) {
+
+    .nav_media{
+        background-color: #6ebcb3;
+        width: 100vw;
+    }
+
+    .nav_bg{
+        height: 11vh;
+    }
+
+    .larghezza-mobile{
+        padding: 0;
+    }
+
+    .position-hamburgher-element{
+        padding-left: 10px;
+    }
+
+    .margin-link{
+        margin: 0;
+    }
+
+    .margin-nav{
+        margin: 0;
+    }
+
+    .position-hamburgher{
+        margin-right: 21px;
+    }
+
+    .sezione-crea{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .position-botton-search{
+        padding-left: 68px;
+        padding-top: 25px;
+    }
+
+    .position-botton-search-guest{
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-right: 5px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .posizione-ricerca{
+        position: absolute;
+        margin-top: 141px;
+        margin-left: 10px;
+    }
+
+    .margin-div-user{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .margin-top-card{
+        margin-top: 4rem;
+    }
+
+    .minions-none{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .box-destra {
+        width: 100%;
+    }
+    
+    .position-botton-search-guest{
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-right: 5px;
+    }
+
+
+}
+
+@media only screen and (max-width: 765px) {
+
+    .testo_3d {
+        font-size: 8vw;
+        margin-top: 2rem;
+    }
+
+    .dimensione-h1{
+        font-size: 53px;
+        margin-top: 2rem;
+    }
+
+    .swiper{
+        width: 100%;
+    }
+
+    
+    .position-botton-search-guest{
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-right: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .dimensioni-titolo-about{
+        font-size: 37px;
+        margin-top: 60px;
+    }
+
+    .testo_3d {
+        font-size: 11vw;
+        margin-top: 2rem;
+    }
+
+    .nav-custom{
+
+    height: 11vh;
+    background-color: #6ebcb3;
+
+    }
+
+    .dimensioni-h2{
+        font-size: 38px;
+        margin-top: 50px;
+    }
+
+    .dimensioni-title-category{
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+    .title-lavoraConNoi{
+        font-size: 53px;
+        margin-top: 60px;
+    }
+
+    .title-revisore{
+        font-size: 53px;
+        margin-top: 100px;
+    }
+
+    .title-revisor{
+        font-size: 53px;
+        margin-top: 150px;
+    }
+
+    .margin-register{
+        margin-top: 100px;
+    }
+
+    .margine-bottone{
+        margin-left: 63px;
+      }
+
+    .padding-search{
+        padding-left: 10px;
+    }
+
+    .larghezza-form{
+        width: 378px !important;
+    }
+
+    
+    .position-botton-search-guest{
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-right: 5px;
+    }
+
+    .circle-nav{
+        margin-left: 0px;
+    }
+    
+    .li-fs{
+        font-size: 23px;
+        padding-left: 10px;
+        border-bottom: 2px solid white;
+    }
+
+    .page-link {
+        color: var(--text-color) !important;
+        border-radius: 50%;
+        width: 88px !important;
+        border-radius: 20px 20px 20px 20px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        width: 100% !important;
+        height: 110%;
+        background: #1b1526;
+      }
+
+      .banner img{
+        margin-top: 66px;
+      }
+
+      .dimensione-titolo-card-utente{
+        font-size: 33px;
+      }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .sfondo-profilo{
+        padding: 0;
+    }
+
+    .dimensioni-h2{
+        font-size: 38px;
+        margin-top: 60px;
+    }
+
+    .posizione-ricerca{
+        position: absolute;
+        margin-top: 144px;
+        margin-left: 10px;
+    }
+
+    .larghezza-form{
+        width: 378px !important;
+    }
+
+    
+    .position-botton-search-guest{
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-right: 5px;
+    }
+
+    .dimensioni-titolo-about{
+        font-size: 37px;
+        margin-top: 60px;
+    }
+
+    .page-link {
+        color: var(--text-color) !important;
+        border-radius: 50%;
+        width: 88px !important;
+        border-radius: 20px 20px 20px 20px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        width: 100% !important;
+        height: 110%;
+        background: #1b1526;
+      }
+
+      .banner img{
+        margin-top: 66px;
+      }
+
+      .dimensione-titolo-card-utente{
+        font-size: 33px;
+      }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .nav-custom{
+        height: 14vh;
+    }
+
+    
+    .position-botton-search-guest{
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-right: 5px;
+    }
+
+    .page-link {
+        color: var(--text-color) !important;
+        border-radius: 50%;
+        width: 88px !important;
+        border-radius: 20px 20px 20px 20px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        width: 100% !important;
+        height: 110%;
+        background: #1b1526;
+      }
+
+      .banner img{
+        margin-top: 66px;
+      }
+
+      .dimensione-titolo-card-utente{
+        font-size: 33px;
+      }
+
+
+}

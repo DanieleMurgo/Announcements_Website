@@ -1,0 +1,99 @@
+:root {
+    --vacceso-color: #00ff88;
+    --vscuro-color: #283618;
+    --vchiaro-color: #99d98c;
+    --gscuro-color: #E5AB53;
+    --garancio-color: #fcbf49;
+    --text-color:#6ebcb3;
+    --text-dark:#04665a;
+
+}
+
+.text-arancio-dark{
+    color: var(--gscuro-color);
+}
+
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h3, h4, h5{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h1{
+    color: #E5AB53;
+    font-size: 4vw;
+    font-weight: 900;
+    letter-spacing: 7px;
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: -1px 1px 3px rgb(216, 140, 0),
+                 -4px 0px 3px rgb(215, 140, 0),
+                -3px 3px 8px black;
+}
+
+h2 {
+    color: #E5AB53;
+    font-size: 4vw;
+    font-weight: 900;
+    letter-spacing: 7px;
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: -1px 1px 3px rgb(216, 140, 0),
+                 -4px 0px 3px rgb(215, 140, 0),
+                -3px 3px 8px black;
+}
+
+.textcolor{
+    color: var(--text-dark);
+}
+
+.text-arancio{
+    color: rgb(240, 158, 5);
+    font-weight: bolder;
+    text-shadow: -1px 1px 3px rgb(216, 140, 0),
+                 -4px 0px 3px rgb(215, 140, 0),
+                -1px 3px 5px black;
+}
+
+.text-arancio-simple{
+    color: rgb(240, 158, 5);
+    font-weight: bolder;
+}
+
+.bgcustom{
+    background-color: #6ebcb3;
+}
+
+body{
+    background-color: #c4f1e4;
+}
+
+.btn:hover{
+    background-color: var(--gscuro-color);
+    font-size: 20px;
+    box-shadow: -1px 1px 3px rgb(216, 140, 0),
+                -4px 0px 3px rgba(215, 140, 0, 0.663),
+                -3px 3px 8px black;
+  transition: 0.5s;
+}
+
+.btn{
+    background-color: var(--text-color);
+    font-size: 20px;
+    box-shadow: -1px 1px 3px #4c948b,
+              -4px 0px 3px #4e948c,
+              -3px 3px 8px black;
+
+}
+
+
+.active{
+    border-bottom: 2px solid var(--gscuro-color);
+    font-weight: bolder;
+}
+
+.altezza{
+    margin-top: 100px;
+}
+
+

@@ -1,0 +1,24 @@
+.masthead {
+    min-height: 106vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url('./img/header2.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+    margin-top: -5vh;
+}
+
+.testo_3d {
+    font-size: 5vw;
+  }
+
+  .btn_header{
+    width: 15rem;
+    font-size: larger;
+  }
+
+.img-preview{
+    height: 7rem;
+}
+
+
